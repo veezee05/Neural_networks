@@ -21,28 +21,26 @@ The model was trained and tested on preprocessed data with a balanced representa
 ## Dataset:
 The dataset used includes various features related to startups such as:
 
-Funding amount
-
-Industry type
-
-Founders’ experience
-
-Number of employees
-
-Geographic location
-
-Market type
+- Funding amount
+- Industry type
+- Founders’ experience
+- Number of employees
+- Geographic location
+- Market type
 
 Note: The dataset is assumed to be pre-cleaned and anonymized. For privacy and reproducibility, a sample or synthetic dataset may be used for demonstration purposes.
 
 ## Project Structure:
 startup-success-prediction/
 │
+
 ├── prediction_model_main.ipynb   # Main Jupyter notebook with all code
+
 ├── README.md                     # Project documentation
+
 ├── requirements.txt              # List of Python dependencies
-└── data/
-    └── startup_data.csv          # Input dataset (example or placeholder)
+
+└── data/ Book1.csv          # Input dataset
 
 ## Model Architecture
 Input Layer: Matches number of features
